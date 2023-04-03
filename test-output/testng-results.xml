@@ -1,33 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-01T19:16:17Z" name="DemoBlazeSuite" finished-at="2023-04-01T19:16:25Z" duration-ms="8435">
+  <suite started-at="2023-04-03T13:42:27Z" name="DemoBlazeSuite" finished-at="2023-04-03T13:42:41Z" duration-ms="14490">
     <groups>
     </groups>
-    <test started-at="2023-04-01T19:16:17Z" name="DemoBlazeTest" finished-at="2023-04-01T19:16:25Z" duration-ms="8435">
-      <class name="com.DemoBlaze.Automation.Test.TestLoginPage">
-        <test-method is-config="true" signature="startTesting()[pri:0, instance:com.DemoBlaze.Automation.Test.TestLoginPage@5ae50ce6]" started-at="2023-04-01T19:16:17Z" name="startTesting" finished-at="2023-04-01T19:16:21Z" duration-ms="4050" status="PASS">
+    <test started-at="2023-04-03T13:42:27Z" name="DemoBlazeTest" finished-at="2023-04-03T13:42:41Z" duration-ms="14490">
+      <class name="com.DemoBlaze.Automation.Test.TestLogOutPage">
+        <test-method is-config="true" signature="startTesting()[pri:0, instance:com.DemoBlaze.Automation.Test.TestLogOutPage@35ef1869]" started-at="2023-04-03T13:42:31Z" name="startTesting" finished-at="2023-04-03T13:42:33Z" duration-ms="2260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTesting -->
-        <test-method signature="testPageTitle()[pri:1, instance:com.DemoBlaze.Automation.Test.TestLoginPage@5ae50ce6]" started-at="2023-04-01T19:16:21Z" name="testPageTitle" finished-at="2023-04-01T19:16:21Z" duration-ms="19" status="PASS">
+        <test-method signature="testUserLogOut()[pri:1, instance:com.DemoBlaze.Automation.Test.TestLogOutPage@35ef1869]" started-at="2023-04-03T13:42:33Z" name="testUserLogOut" finished-at="2023-04-03T13:42:38Z" duration-ms="4946" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPageTitle -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:com.DemoBlaze.Automation.Test.TestLoginPage@5ae50ce6]" started-at="2023-04-01T19:16:21Z" name="terminate" finished-at="2023-04-01T19:16:21Z" duration-ms="179" status="PASS">
+        </test-method> <!-- testUserLogOut -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:com.DemoBlaze.Automation.Test.TestLogOutPage@35ef1869]" started-at="2023-04-03T13:42:38Z" name="terminate" finished-at="2023-04-03T13:42:38Z" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
-        <test-method is-config="true" signature="startTesting()[pri:0, instance:com.DemoBlaze.Automation.Test.TestLoginPage@5ae50ce6]" started-at="2023-04-01T19:16:21Z" name="startTesting" finished-at="2023-04-01T19:16:24Z" duration-ms="2647" status="PASS">
+      </class> <!-- com.DemoBlaze.Automation.Test.TestLogOutPage -->
+      <class name="com.DemoBlaze.Automation.Test.TestLoginPage">
+        <test-method is-config="true" signature="startTesting()[pri:0, instance:com.DemoBlaze.Automation.Test.TestLoginPage@3c407114]" started-at="2023-04-03T13:42:27Z" name="startTesting" finished-at="2023-04-03T13:42:30Z" duration-ms="3645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTesting -->
-        <test-method signature="loginTest()[pri:2, instance:com.DemoBlaze.Automation.Test.TestLoginPage@5ae50ce6]" started-at="2023-04-01T19:16:24Z" name="loginTest" finished-at="2023-04-01T19:16:25Z" duration-ms="1241" status="PASS">
+        <test-method signature="testPageTitle()[pri:1, instance:com.DemoBlaze.Automation.Test.TestLoginPage@3c407114]" started-at="2023-04-03T13:42:30Z" name="testPageTitle" finished-at="2023-04-03T13:42:30Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitle -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:com.DemoBlaze.Automation.Test.TestLoginPage@3c407114]" started-at="2023-04-03T13:42:30Z" name="terminate" finished-at="2023-04-03T13:42:31Z" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method is-config="true" signature="startTesting()[pri:0, instance:com.DemoBlaze.Automation.Test.TestLoginPage@3c407114]" started-at="2023-04-03T13:42:38Z" name="startTesting" finished-at="2023-04-03T13:42:40Z" duration-ms="2125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTesting -->
+        <test-method signature="loginTest()[pri:2, instance:com.DemoBlaze.Automation.Test.TestLoginPage@3c407114]" started-at="2023-04-03T13:42:40Z" name="loginTest" finished-at="2023-04-03T13:42:41Z" duration-ms="969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:com.DemoBlaze.Automation.Test.TestLoginPage@5ae50ce6]" started-at="2023-04-01T19:16:25Z" name="terminate" finished-at="2023-04-01T19:16:25Z" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="terminate()[pri:0, instance:com.DemoBlaze.Automation.Test.TestLoginPage@3c407114]" started-at="2023-04-03T13:42:41Z" name="terminate" finished-at="2023-04-03T13:42:41Z" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->

@@ -35,6 +35,7 @@ public class TestLoginPage extends LoginPage {
 		loginpage.login();
 	}
 	
+	
 	@AfterMethod
 	public void terminate() {
 		tearDown();

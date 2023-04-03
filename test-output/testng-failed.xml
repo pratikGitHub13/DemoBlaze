@@ -3,14 +3,13 @@
 <suite name="Failed suite [DemoBlazeSuite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="DemoBlazeTest(failed)">
     <classes>
-      <class name="com.DemoBlaze.Automation.Test.TestLoginPage">
+      <class name="com.DemoBlaze.Automation.Test.TestLogOutPage">
         <methods>
-          <include name="loginTest"/>
-          <include name="testPageTitle"/>
           <include name="startTesting"/>
+          <include name="testUserLogOut"/>
           <include name="terminate"/>
         </methods>
-      </class> <!-- com.DemoBlaze.Automation.Test.TestLoginPage -->
+      </class> <!-- com.DemoBlaze.Automation.Test.TestLogOutPage -->
     </classes>
   </test> <!-- DemoBlazeTest(failed) -->
 </suite> <!-- Failed suite [DemoBlazeSuite] -->

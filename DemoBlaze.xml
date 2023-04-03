@@ -9,6 +9,11 @@
 					<include name="loginTest"></include>
 				</methods>
 			</class>
+			<class name="com.DemoBlaze.Automation.Test.TestLogOutPage">
+				<methods>
+					<include name="testUserLogOut"></include>
+				</methods>
+			</class>
 		</classes>
 	</test>
 </suite>
